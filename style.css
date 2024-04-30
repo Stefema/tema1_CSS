@@ -1,0 +1,45 @@
+li:first-child{
+    font-style: italic;
+}
+
+li:last-child{
+    color:coral;
+}
+
+h1[title="welcome"]:hover{
+    color: magenta;
+}
+
+a[href]{
+    color:red;
+}
+
+p:not(.hidden){
+    font-weight: bolder;
+}
+
+
+li a[href]{
+    background-color: greenyellow;
+
+}
+
+selection p{
+    color:blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+article > p{
+    background-color: aqua;
+    font-style: oblique;
+}
+
+.hilights ~ span{
+    color:brown;
+    font-size:x-large ;
+}
+
+#header{
+    color:mediumslateblue;
+}
